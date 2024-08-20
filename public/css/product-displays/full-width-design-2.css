@@ -1,0 +1,139 @@
+.trendpilot-pd-full-width-2 .trendpilot-product-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-left::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgb(0 0 0 / 15%), transparent);
+    pointer-events: none;
+    /* Ensure it doesn't interfere with content */
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-left {
+    padding: 17.743%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    justify-content: center;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-title {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-heading {
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-cta-link {
+    text-decoration: none;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-cta-button {
+    width: 115px;
+    height: 42px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-blur-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-right {
+    flex: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    position: absolute;
+    top: -50%;
+    left: -50%;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(132 132 132 / 28%);
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-picture {
+    position: relative;
+    padding: 40px;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-image {
+    max-height: 350px;
+    max-width: 350px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.trendpilot-pd-full-width-2 .trendpilot-product-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .trendpilot-pd-full-width-2 .trendpilot-product-left {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

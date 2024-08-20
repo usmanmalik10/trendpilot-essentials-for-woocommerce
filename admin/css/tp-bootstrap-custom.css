@@ -1,0 +1,136 @@
+/* Custom styles for Bootstrap */
+
+p{
+    font-size: 14px;
+}
+
+#wpcontent
+{
+    background: #f6f8ff;
+}
+
+#wpbody
+{
+    background: #f6f8ff;
+    padding:20px;
+}
+
+.card-header {
+    background-color: inherit;
+    color: #333;
+    border-bottom: 1px solid #dee2e6;
+    padding: 16px;
+    font-size: 27px;
+}
+
+.card-label-header
+{   
+    color: #1d212f;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    font-size: 19px;
+}
+
+
+.custom-card
+{
+    box-shadow: -7.829px 11.607px 20px 0px #e4e3f5;
+    border-radius: 10px;
+    border: 0px;
+    
+}
+
+.chartjs-wrapper {
+    padding: 1rem;
+    overflow: hidden;
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Adjust based on content, you can set a specific height if needed */
+
+}
+
+
+.card
+{
+    max-width: 100%;
+    padding:5px;
+}
+
+.tp-period-card
+{
+    max-width:300px;
+    padding: 5px;
+}
+
+.tp-period-card-label
+{
+margin-left:10px;
+}
+
+.tp-header-container
+{   
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tp-header-title
+{
+    color: #1d212f;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    font-size: 19px;
+}
+
+.tp-section-title
+{
+    color: #170c6b;
+    font-weight: 600;
+    line-height: 2;
+    position: relative;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.recommended-card {
+    max-height: 555px;
+    overflow: overlay;
+}
+
+.upsell-card {
+    min-height: 570px;
+}
+
+.custom-card-image-col
+{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.text-muted
+{
+    color: #8f8fb1 !important;
+}
+
+.recommended-card ul.list-unstyled li:nth-child(odd) {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.recommended-card ul.list-unstyled li:nth-child(even) {
+    background-color: #ffffff; /* White background */
+}
+
+.tp-analytics-filter-form > div {
+    margin-left: 10px;
+}
+

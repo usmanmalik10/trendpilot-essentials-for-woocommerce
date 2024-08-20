@@ -1,0 +1,90 @@
+.ae-upsell-container{
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.ae-upsell-card{
+    background-color: white;
+    width: 800;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.1);
+}
+
+.ae-upsell-background{
+    background-color: #f7f7f7;
+    padding: 60px;
+    height: 100%;
+}
+
+.ae-upsell-left{
+   max-width:270px;
+}
+
+.ae-upsell-right{
+   padding: 30px;
+   margin-left: 5%;
+   width: 100%;
+}
+
+.upsell-heading{
+    text-align: center;
+
+}
+
+.ae-separator {
+    border: none;
+    height: 2px;
+    background-color: #cccccc4f;
+    margin: 20px 0;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.no-thanks-btn{
+    background-color: #ba0000;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 19px;
+    text-align: center;
+}
+
+.yes-please-button{
+    display: block!important;
+    text-align: center;
+    border-radius: 5px!important;
+}
+
+.upsell-price{
+    font-size: 25px;
+}
+
+/* Default styles for .modal-content */
+.modal-content {
+    margin: 15% auto; /* 15% from the top and centered */
+    width: 80%; /* Default width for screens not wider than 1000px */
+}
+
+/* Media query for screens wider than 1000px */
+@media screen and (min-width: 1001px) {
+    .modal-content {
+        width: 800px; /* Set the maximum width to 500px */
+    }
+}
